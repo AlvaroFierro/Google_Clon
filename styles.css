@@ -1,6 +1,7 @@
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 body {
   background-color: #ffffff;
@@ -19,6 +20,8 @@ body {
 a {
   text-decoration: none;
   color: #212121;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
 }
 a:hover {
   text-decoration: underline;
@@ -35,13 +38,18 @@ div img {
 #profile {
   border-radius: 50%;
 }
+
 .logoContainer > div {
   display: flex;
-  /* border: solid 3px red; */
+  justify-content: center;
 }
 .logoContainer div img {
-  width: 50%;
+  width: 30%;
   height: auto;
+}
+.top {
+  display: flex;
+  justify-content: center;
 }
 .items div img {
   justify-content: center;
@@ -50,12 +58,16 @@ div img {
   display: inline-flex;
 }
 .boxes {
-  border-radius: 24px;
-  margin: 2rem;
-  /* border: solid 5px seagreen; */
+  display: flex;
   justify-content: center;
 }
-.boxes:hover {
+.containerBoxes {
+  display: flex;
+  border-radius: 24px;
+  margin: 2rem;
+  justify-content: center;
+}
+.containerBoxes:hover {
   box-shadow: 5px 5px #888888;
 }
 input {
@@ -68,7 +80,6 @@ input:focus {
 
 .buttons {
   justify-content: center;
-  /* background-color: red; */
 }
 .button {
   padding: 10px 16px;
@@ -93,5 +104,5 @@ p {
 }
 
 .english {
-  color: #1A0DAB;
+  color: #1a0dab;
 }
