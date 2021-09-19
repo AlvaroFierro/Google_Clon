@@ -7,6 +7,9 @@ body {
   background-color: #ffffff;
   font-family: Arial, Helvetica, sans-serif;
 }
+
+/* Settting up the nav bar */
+
 .container {
   display: flex;
   width: 100%;
@@ -39,9 +42,12 @@ div img {
   border-radius: 50%;
 }
 
+/* Settings for logo IMG */
+
 .logoContainer > div {
   display: flex;
   justify-content: center;
+  margin-top: 30px;
 }
 .logoContainer div img {
   width: 30%;
@@ -57,6 +63,9 @@ div img {
 .middle div {
   display: inline-flex;
 }
+
+/* Input for search */
+
 .boxes {
   display: flex;
   justify-content: center;
@@ -64,30 +73,35 @@ div img {
 .containerBoxes {
   display: flex;
   border-radius: 24px;
-  margin: 2rem;
   justify-content: center;
+  margin: 35px;
+  height: 50px;
 }
 .containerBoxes:hover {
-  box-shadow: 5px 5px #888888;
+  box-shadow: 0 2px 2px rgb(0 0 0 / 100%);
+  align-items: center;
+  align-content: center;
 }
 input {
+  width: 350px;
   border: none;
 }
 input:focus {
   border: none;
   outline: none;
 }
-
 .buttons {
+  display: flex;
   justify-content: center;
+  margin-bottom: 25px;
 }
 .button {
   padding: 10px 16px;
   background-color: #f8f9fa;
   margin: 11px 4px;
   border: none;
+  width: 150px;
 }
-
 .button:hover {
   box-shadow: 0 1px 1px rgb(0 0 0 / 10%);
   background-color: #f8f8fa;
@@ -96,13 +110,37 @@ input:focus {
   border-radius: 4px;
   user-select: none;
 }
-
-p {
+#google {
   display: flex;
   justify-content: center;
   font-size: 14px;
 }
-
-.english {
+#english {
   color: #1a0dab;
+}
+
+/* Footer and some stuff   */
+
+.footerContainer {
+  width: 100%;
+  padding: 15px;
+}
+.footerWrapper {
+  height: 35px;
+}
+.fbottom {
+  margin-top: 25px;
+  display: inline-flex;
+  width: 100%;
+}
+.space {
+  margin: 15px;
+}
+#left {
+  width: 50%;
+}
+#right {
+  display: flex;
+  width: 50%;
+  justify-content: flex-end;
 }
