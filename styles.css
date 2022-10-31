@@ -52,7 +52,7 @@ div img {
   width: 20%;
   height: auto;
 }
-.top {
+.logo {
   display: flex;
   justify-content: center;
 }
@@ -71,14 +71,12 @@ div img {
 }
 .containerBoxes {
   display: flex;
-  border: solid 1px #DFE1E5;
+  border: solid 1px #dfe1e5;
   align-items: center;
   border-radius: 24px;
   justify-content: center;
   margin: 35px;
   height: 50px;
-    
-
 }
 .containerBoxes:hover {
   box-shadow: 0 2px 2px rgb(0 0 0 / 100%);
@@ -122,41 +120,23 @@ input:focus {
   font-size: 13px;
 }
 
+.search,
+.speech {
+  padding: 1rem;
+}
+
 /* Footer and some stuff   */
-footer {
-  margin-top: 180px;
+.btm--container {
+  padding: 15rem 1rem 0 1rem;
 }
-.footerContainer {
-  width: 100%;
-  padding: 15px;
-}
-.footerWrapper {
-  height: 35px;
-}
-.fbottom {
-  margin-top: 25px;
-  display: inline-flex;
-  width: 100%;
-  border-top: solid 1px #DADCE0;
-  padding: 15px;
-  font: 14px arial,sans-serif;
-}
-.space {
-  margin: 15px;
-}
-.ftop a,
-#left a,
-#right a {
-  color: #0000008a;
-}
-#left {
-  width: 50%;
-}
-#right {
+
+.btm {
   display: flex;
-  width: 50%;
-  justify-content: flex-end;
+  flex-wrap: wrap;
+  justify-content: space-between;
 }
-#right a {
-  margin-left: 15px;
+
+.btm--container a,
+.btm--container span {
+  padding: 1rem;
 }
